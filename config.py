@@ -5,13 +5,13 @@
 from os import environ 
 
 class Config:
-    API_ID = int(environ.get("API_ID", ""))
-    API_HASH = environ.get("API_HASH", "")
+    API_ID = int(environ.get("API_ID", "29490954"))
+    API_HASH = environ.get("API_HASH", "dbd8f5af56b0f6e16327c20a84eece99")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://kavitasaini3626:M9fdV3fZBso2gRFA@cluster0.jmvnynr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
-    BOT_OWNER = int(environ.get("BOT_OWNER", ""))
+    BOT_OWNER = int(environ.get("BOT_OWNER", "7660860610"))
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
